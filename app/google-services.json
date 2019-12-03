@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1072743928937",
+    "firebase_url": "https://klub-1b220.firebaseio.com",
+    "project_id": "klub-1b220",
+    "storage_bucket": "klub-1b220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072743928937:android:7faa36db04263ea0",
+        "android_client_info": {
+          "package_name": "com.example.klub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072743928937-ehqtke1dmob2rfsor4039gnjdd8dc545.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.klub",
+            "certificate_hash": "50cd806d0cdbbc7b2c16eea1982ce17bd823db16"
+          }
+        },
+        {
+          "client_id": "1072743928937-hjib2t5ts7m5kndfemff5rf7jehq8p10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPYiEt-EmqAK_jVoPBjmU-Bfpf7haQi8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072743928937-hjib2t5ts7m5kndfemff5rf7jehq8p10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

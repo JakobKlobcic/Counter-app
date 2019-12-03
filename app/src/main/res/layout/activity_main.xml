@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Activity.MainActivity">
+
+    <EditText
+        android:text="0"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:id="@+id/showNumber"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:background="#000"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/showNumber"
+        android:layout_alignBottom="@+id/showNumber"
+        android:layout_toLeftOf="@+id/showNumber"
+        android:layout_marginRight="10dp"
+        android:text="+"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:onClick="onAddClick"
+        android:background="#000"
+        android:textColor="#fff"
+
+        />
+
+        <Button
+            android:id="@+id/subtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/showNumber"
+            android:layout_alignBottom="@+id/showNumber"
+            android:layout_toRightOf="@+id/showNumber"
+            android:layout_marginLeft="10dp"
+            android:text="-"
+            android:textSize="70sp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:onClick="onSubtractClick"
+            android:textColor="#fff"
+            android:background="#000"
+            />
+
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/showNumber"
+          android:layout_marginTop="220dp"
+          android:text="Analyze Data"
+          android:layout_centerHorizontal="true"
+          android:textAllCaps="false"
+          android:onClick="onAnalyzeClick"/>
+
+  </RelativeLayout>
